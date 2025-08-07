@@ -12,21 +12,15 @@ export function HeroSection({ onExploreClick }: HeroSectionProps) {
     <section className="relative h-screen w-full overflow-hidden bg-black">
       {/* Cinematic Background */}
       <div className="absolute inset-0">
-        <motion.div 
-          className="h-full w-full bg-gradient-to-br from-gray-900 via-black to-gray-800"
-          animate={{
-            backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear"
-          }}
-          style={{
-            backgroundSize: '400% 400%'
-          }}
+        {/* Video Background */}
+        <video
+          className="h-full w-full object-cover"
+          src="/assets/VID-20250804-WA0003.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
         />
-        
         {/* Subtle overlay for texture */}
         <div className="absolute inset-0 bg-black/20" />
         

@@ -53,23 +53,31 @@ export function ManifestoSection() {
               transition={{ duration: 1.5, delay: 1.2 }}
               viewport={{ once: true }}
             >
-              <p 
-                className="text-gray-600 text-2xl md:text-3xl lg:text-4xl leading-relaxed"
-                style={{ fontWeight: 300, letterSpacing: '0.02em' }}
-              >
-                We are not here to dress you.
+              <p>
+                <span className="text-white text-2xl md:text-3xl lg:text-4xl leading-relaxed"
+                style={{ fontWeight: 300, letterSpacing: '0.02em' }}>
+                  We are not her
+                </span>
+                <span className="text-black text-2xl md:text-3xl lg:text-4xl leading-relaxed"
+                style={{ fontWeight: 300, letterSpacing: '0.02em' }}>
+                  e to dress you.
+                </span>
+              </p>
+              <p>
+                <span className="text-white text-2xl md:text-3xl lg:text-4xl leading-relaxed"
+                style={{ fontWeight: 300, letterSpacing: '0.02em' }}>
+                  We are here t
+                </span>
+                <span className="text-black text-2xl md:text-3xl lg:text-4xl leading-relaxed"
+                style={{ fontWeight: 300, letterSpacing: '0.02em' }}>
+                  o reflect you.
+                </span>
               </p>
               <p 
-                className="text-gray-600 text-2xl md:text-3xl lg:text-4xl leading-relaxed"
-                style={{ fontWeight: 300, letterSpacing: '0.02em' }}
-              >
-                We are here to reflect you.
-              </p>
-              <p 
-                className="text-black text-2xl md:text-3xl lg:text-4xl leading-relaxed"
                 style={{ fontWeight: 500, letterSpacing: '0.05em' }}
               >
-                This is <span className="tracking-widest">THE PERSONAL</span>.
+                <span className="tracking-widest text-white text-2xl md:text-3xl lg:text-4xl leading-relaxed">This is THE </span>
+                <span className="tracking-widest text-black text-2xl md:text-3xl lg:text-4xl leading-relaxed">PERSONAL</span>.
               </p>
             </motion.div>
 
@@ -79,11 +87,13 @@ export function ManifestoSection() {
               transition={{ duration: 1, delay: 2 }}
               viewport={{ once: true }}
             >
-              <p 
-                className="text-black text-xl md:text-2xl tracking-widest"
-                style={{ fontWeight: 600 }}
-              >
-                #WearYourTruth
+              <p style={{ fontWeight: 600 }}>
+                <span className="text-white text-xl md:text-2xl tracking-widest">
+                  #WearY
+                </span>
+                <span className="text-black text-xl md:text-2xl tracking-widest">
+                  ourTruth
+                </span>
               </p>
             </motion.div>
           </div>
