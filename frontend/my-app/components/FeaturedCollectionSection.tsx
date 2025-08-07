@@ -84,19 +84,19 @@ export function FeaturedCollectionSection() {
   const products: ProductProps[] = [
     {
       name: "Signature Logo Tee",
-      frontImage: "https://images.unsplash.com/photo-1662103627854-ae7551d1eddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHRzaGlydCUyMG1vY2t1cCUyMGZyb250fGVufDF8fHx8MTc1NDQ3MzEzNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      frontImage: "/assets/mediamodifier-ogmenj2NGho-unsplash.jpg",
       backImage: "https://images.unsplash.com/photo-1662103627854-ae7551d1eddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHRzaGlydCUyMG1vY2t1cCUyMGJhY2t8ZW58MXx8fHwxNzU0NDczMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       hoverText: "Seen by Nox"
     },
     {
       name: "Signature Owl Tee",
-      frontImage: "https://images.unsplash.com/photo-1662103627854-ae7551d1eddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHRzaGlydCUyMG1vY2t1cCUyMGZyb250fGVufDF8fHx8MTc1NDQ3MzEzNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      frontImage: "/assets/anomaly-WWesmHEgXDs-unsplash.jpg",
       backImage: "https://images.unsplash.com/photo-1662103627854-ae7551d1eddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHRzaGlydCUyMG1vY2t1cCUyMGJhY2t8ZW58MXx8fHwxNzU0NDczMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       hoverText: "Seen by Nox"
     },
     {
       name: "Signature Hand Tee",
-      frontImage: "https://images.unsplash.com/photo-1662103627854-ae7551d1eddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHRzaGlydCUyMG1vY2t1cCUyMGZyb250fGVufDF8fHx8MTc1NDQ3MzEzNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      frontImage: "/assets/john-paul-henry-Da0jti8Ekp8-unsplash.jpg",
       backImage: "https://images.unsplash.com/photo-1662103627854-ae7551d1eddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHRzaGlydCUyMG1vY2t1cCUyMGJhY2t8ZW58MXx8fHwxNzU0NDczMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       hoverText: "Seen by Nox"
     }
